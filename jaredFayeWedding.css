@@ -1,0 +1,30 @@
+:root{
+    --pastel-white:#f5f5ef;
+    --dark-green:#404a26;
+    --creamy-green:#e6e0d0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(50deg, var(--creamy-green),var(--dark-green));
+}
+
+
+img{
+    display: flex;
+    width: 40%;
+}
+
+.header__image{
+    position: ;
+}
