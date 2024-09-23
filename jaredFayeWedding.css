@@ -15,16 +15,38 @@ html, body{
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(50deg, var(--creamy-green),var(--dark-green));
+    background-color: #0f0f0f;
+    color: white;
+    max-width: 2500px;
+    height: 1600px;
+    padding-top: 75px;
 }
 
+p{
+    font-family: "Inclusive Sans", Arial, Helvetica, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 590;
+    font-style: normal;
+    font-size: 75px;
+    margin-top: 50px;
+}
 
-img{
+.home{
     display: flex;
-    width: 40%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.header__image{
-    position: ;
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-right: 90px;
 }
+
+.home-image{
+    width: 500px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
